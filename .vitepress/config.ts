@@ -8,8 +8,11 @@ import simpleGit from 'simple-git'
  * 部署站点的基础路径。
  * 必须以 / 开头和结尾。
  * 这必须与 `defineConfig` 中的 `base` 属性匹配。
+ * 
+ * 注意：因为仓库名是 tajuren.github.io (用户级GitHub Pages)，
+ * 会部署到根路径，所以 base 设置为 '/'
  */
-const BASE_PATH = '/knowledge-notes/'
+const BASE_PATH = '/'
 
 // --- 类型定义 ---
 interface DocDirectory {
@@ -204,7 +207,7 @@ export default defineConfig({
     
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/tajuren/tajuren.github.io/knowledge-notes' }
+      { icon: 'github', link: 'https://github.com/tajuren/tajuren.github.io' }
     ],
     
     // 页脚
@@ -220,7 +223,7 @@ export default defineConfig({
     
     // 编辑链接
     editLink: {
-      pattern: 'https://github.com/tajuren/tajuren.github.io/knowledge-notes/edit/main/:path',
+      pattern: 'https://github.com/tajuren/tajuren.github.io/edit/main/:path',
       text: '在 GitHub 上编辑此页'
     },
     
