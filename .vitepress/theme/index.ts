@@ -17,9 +17,9 @@ export default {
         // 评论组件 - https://giscus.app/
         giscusTalk({
             repo: 'tajuren/tajuren.github.io', // 替换为你的 GitHub 用户名和仓库名
-            repoId: 'R_kgDOQFImJQ', // 从 https://giscus.app/ 获取
+            repoId: 'R_kgDOQJBrRA', // 从 https://giscus.app/ 获取
             category: 'Announcements', // 默认: `General`
-            categoryId: 'DIC_kwDOQFImJc4CxDNN', // 从 https://giscus.app/ 获取
+            categoryId: 'DIC_kwDOQJBrRM4CxFFp', // 从 https://giscus.app/ 获取
             mapping: 'pathname', // 默认: `pathname`
             inputPosition: 'top', // 默认: `top`
             lang: 'zh-CN', // 默认: `zh-CN`

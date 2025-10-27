@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Knowledge Notes"
   text: "学习笔记与项目记录"
-  tagline: 随着自己做的项目，学习内容的笔记。用来记录、打磨方法论。
+  tagline: 组内工作产出的笔记，记录学籍过程，供大家参考。
   image:
     src: /logo.svg
     alt: Knowledge Notes
@@ -14,7 +14,7 @@ hero:
       link: /docker/
     - theme: alt
       text: 在 GitHub 查看
-      link: https://github.com/cont1nut1y/knowledge-notes
+      link: https://github.com/tajuren/tajuren.github.io
 
 features:
   - icon: 🐳

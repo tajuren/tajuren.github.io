@@ -16,6 +16,7 @@
     "vitepress-sidebar": "^1.33.0"
   },
   "dependencies": {
+    "simple-git": "^3.28.0",
     "vitepress-plugin-comment-with-giscus": "^1.1.15"
   }
 }
